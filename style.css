@@ -1,7 +1,13 @@
+*{
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
     background: none;
+    font-family: sans-serif;
 }
 .nav ul {
     list-style: none;
@@ -92,21 +98,6 @@ header {
 
 }
 
-.left {
-    width: 50%;
-    border: 1px dotted blue;
-    height: 200px;
-    float: left;
-}
-
-.right {
-    width: 50%;
-    border: 1px solid red;
-    height: 200px;
-    float: left;
-
-}
-
 .copyright {
     width: 100%;
     color: black;
@@ -134,34 +125,43 @@ header {
 }
 
 .left {
-    width: 49.5%;
+    width: 49%;
     border: 1px solid #AB87FF;
     height: 300px;
     float: left;
-
 }
-
 .right {
-    width: 49.5%;
+    width: 49%;
     border: 1px solid #AB87FF;
     height: 300px;
     float: right;
 
 }
 .left2 {
-    width: 49.5%;
+    width: 49%;
     border: 1px solid #AB87FF;
     height: 300px;
     float: left;
     
 }
 .right2 {
-    width: 49.5%;
+    width: 49%;
     border: 1px solid #AB87FF;
     height: 300px;
     float: right;
 
 }
+#myVideo {
+   
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    
+}
+
+
+
 #marge *
 {
     position: absolute;
