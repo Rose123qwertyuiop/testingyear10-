@@ -31,7 +31,7 @@ body {
     transition: .3s background-color;
 }
 .nav a:hover {
-    background-color: #AB87FF
+    background-color: #DBF9FF
 }
 .nav a.active {
     background-color: #fff;
